@@ -1,0 +1,234 @@
+/* TP - Responsive Cookie 
+   @Kintoki / kinto.xyz
+   contact : hardelin.thibaut@gmail.com
+ */
+
+
+/* TABLETTES , CERTAINE PROPRIETE NE S'PPLIQUENT QU'AVEC L'OUTILS DE DEVS GOOGLE, JE SAIS PAS POURQUOI*/
+/* JE SAIS PAS POURQUOI LE BACKGROUND NE SE RESIZE PAS CORRECTEMENT NON PLUS*/
+@media screen and (max-width: 768px){
+
+	header{
+
+		width: 100%;
+	}
+
+	nav{
+		font-size: 09px;
+		width: 100%;
+	}
+
+	nav ul{
+
+		width: 90%;
+		list-style: inline;
+	}
+
+	nav ul li{
+
+		display: inline-block;
+		padding: 5px;
+	}
+
+	nav ul #navSecond {
+    	padding :5px;
+    	margin-left: -4%;
+	}
+
+	#headContent{
+		width: 100%;
+	}
+
+	#content{
+		width: 100vw;
+	}
+
+	#logo{
+
+		margin-left: 70%;
+		padding-bottom: -3%;
+	}
+
+
+	/* CONTAINER HEADER */
+	#headContent{
+
+		width: 100vw;
+	}
+
+	#infosVisu {
+    	width: 100vw;
+    	float: left;
+    	padding: 50px;
+    	position: relative;
+		
+	}
+
+	#infosVisu h1 span {
+		float: left;
+		padding: 10px 0 5px 0;
+	}
+
+	#bigVisuel {
+		width: 100vw;
+   		background-size: 80% 30%;
+   		margin-left: 10%;
+   		background-position: bottom left;
+	}
+
+	/*PREMIERE SECTION*/
+	#nouveauxProduits {
+    	width: 100vw;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	#nouveauxProduits article {
+    	width: 300px;
+	}
+
+	/*DEUXIEME SECTION*/
+	#presInt {
+   		width: 100vw;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	#presInt article{
+
+		padding : 50px;
+	}
+
+	/*TROISIEME SECTION*/
+	#bottomPage {
+		width: 100vw;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	#avantages{
+
+		margin-left: 11%;
+	}
+
+	/*footer*/
+	#footContent {
+    width: 100vw;
+	}
+
+	#cookieTour{
+
+		display: none;
+	}
+
+}
+
+/* SMARTPHONE  , CERTAINE PROPRIETE NE S'PPLIQUENT QU'AVEC L'OUTILS DE DEVS GOOGLE, JE SAIS PAS POURQUOI*/
+/* JE SAIS PAS POURQUOI LE BACKGROUND NE SE RESIZE PAS CORRECTEMENT NON PLUS	 */
+@media screen and (max-device-width : 480px){
+
+
+	body{
+		background-color: green;
+		width: 100vw;
+	}
+
+	nav ul {
+		width: 90%;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		font-size: 6px;
+		margin : auto;
+	}
+
+	#headContent {
+		width: 100vw;
+	}
+
+	#logo {
+		width: 30%;
+		position: relative;
+		margin: 0 auto;
+		padding-top: 115px;
+	}
+
+	#logo img{
+		width: 100%;
+		height: 100%;
+	}
+	
+	#bigVisuel {
+   		background-image: none ;
+   		margin-left: -7%;
+
+	}
+
+	#infosVisu {
+		text-align: center;
+    	width: 100vw;
+  
+	}
+	
+	#infosVisu h1 {
+		font-size: 13vw;
+	}
+	
+	#infosVisu h1 span {
+		font-size: 10vw;
+	}
+	
+	#infosVisu p {
+			text-align: center;
+			width: 100vw
+
+	}
+	#btnGoCart{
+		position: absolute;
+		width: 35vw;
+		font-size: 3vw;
+		background-size: 100% 100%;
+	}
+
+	#avantages {
+    	width: 100vw;
+	}
+
+	#avantages ul {
+    	display: flex;
+		justify-content: space-between;
+	}
+
+	#avantages ul li{
+    	width: 33vw;
+		height: auto;
+		background-size: 100% 100%;
+	}
+	
+
+	#avantages li h6 {
+    	font-size: 4vw;
+    	text-transform: uppercase;
+    	margin: 60px 0 30px 0;
+    	color: #29888c;
+    	line-height: 18px;
+	}
+
+	#avantages ul li a {
+    	position:relative;
+		bottom: 0;
+		width: 100%;
+		
+    	font-size: 4vw;
+	}
+
+	#socialBox {
+		width: 100vw;
+    	display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
